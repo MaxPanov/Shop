@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {width: 100%; padding: 20px 0; background-color: bisque;}
+.header__title {text-align: center; text-transform: uppercase;}
+
+.footer {width: 100%; padding: 20px 0; background-color: bisque;}
+.footer__title {text-align: center; text-transform: uppercase;}
+
+.products, .basket {display: flex; padding: 10px; flex-direction: column;}
+.products__title, .basket__title{width: 100%; text-align: center; margin: 10 0;}
+.products__articles, .basket__articles{display: flex; justify-content: center; align-items: center;}
+.products__card, .basket__card{padding: 10px;}
+.products__name, .basket__name{font-size: 20px;}
+.products__price, .basket__price{margin-top: 10px;}
+.products__weight, .basket__weight{}
+.product__add, .basket__add, .basket__del {margin-top: 5px; padding: 2px; width: 100%; cursor: pointer;}
+.basket__count {margin-top: 10px;}
+
+.auth {display: flex; flex-direction: column; width: 25%; align-items: center; margin: 50px auto;}
+.auth input, .auth button {margin: 10px 0; width: 100%; padding: 5px;} 
+.auth__change {background-color: inherit; border: none; text-decoration: underline; cursor: pointer; color: blue;}
